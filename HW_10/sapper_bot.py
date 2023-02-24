@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, executor, types
 
 logging.basicConfig(level=logging.WARNING)
 
-bot = Bot("5984285484:AAHfYQUG3Ff2kBlNKqiQmK9jYNvPeD6ysOQ")
+bot = Bot("TOKEN")
 dp = Dispatcher(bot=bot)
 
 games = {}
